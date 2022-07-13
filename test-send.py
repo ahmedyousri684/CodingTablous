@@ -1,0 +1,4 @@
+from pymessenger.bot import Bot
+
+bot = Bot("EAAF9FZCRQ3iEBANR1SyMFYSZAOWvNKtERYDRCbbTdYQiYnYFNIniehFA0fnCA2LbKhXeJsooxj3IwZBaZA0pSfHa3sNsEMR4JUOZARkS7T5a3NZBaUxkkASSO5kt1H9AX2ChCHQBfTqBaBcmHy82NjJ1EkUcTwXZAXm6JUZB3dcNInkn6zJfcpqHI1djmsVeqwcZD")
+bot.send_text_message(10152368852405295, "hello")
