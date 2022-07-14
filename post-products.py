@@ -12,7 +12,7 @@ with open(codes_filename, "r") as f:
         if product_type == "M":
             new_product = {
                 "description": "",
-                "productCode": str(code),
+                "productCode": str(code.split("\n")[0]),
                 "image": "",
                 "smallPrice": 300,
                 "mediumPrice": 350,
@@ -23,7 +23,7 @@ with open(codes_filename, "r") as f:
         elif product_type == "S":
             new_product = {
                 "description": "",
-                "productCode": str(code),
+                "productCode": str(code.split("\n")[0]),
                 "image": "",
                 "smallPrice": 250,
                 "mediumPrice": 275,
