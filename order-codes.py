@@ -1,5 +1,5 @@
 import os
-FILE_PATH = 'Final-Collections'
+FILE_PATH = 'data'
 
 collections = os.listdir(FILE_PATH)
 for collection in collections:
